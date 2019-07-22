@@ -1,3 +1,10 @@
 language: "en"
 
-pipeline: "spacy_sklearn"
+# pipeline: "spacy_sklearn"
+
+pipeline: "supervised_embeddings"
+
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: MappingPolicy
