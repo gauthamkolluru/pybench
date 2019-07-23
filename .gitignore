@@ -9,5 +9,4 @@ sample1.*
 *.xlsx
 *.ppt
 *.pptx
-/botenv/*.*
-/botenv/*/*.*
+/botenv/*
