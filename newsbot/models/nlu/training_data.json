@@ -1,0 +1,221 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hola"
+      },
+      {
+        "intent": "greet",
+        "text": "vanakkam"
+      },
+      {
+        "intent": "greet",
+        "text": "namasthey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Hola"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "I'm good, how are you?"
+      },
+      {
+        "intent": "fine_ask",
+        "text": "I'm good, how about you?"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm doing great"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I;m doing fine"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm doing good"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm good"
+      },
+      {
+        "intent": "fine_normal",
+        "text": "I'm fine, thanks"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "world",
+            "entity": "category"
+          }
+        ],
+        "text": "share some latest news in the world"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "sports",
+            "entity": "category"
+          }
+        ],
+        "text": "share some latest news in the sports"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "technology",
+            "entity": "category"
+          }
+        ],
+        "text": "whats latest in the technology"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "fashion",
+            "entity": "category"
+          }
+        ],
+        "text": "what is going on in the fashion"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "movies",
+            "entity": "category"
+          }
+        ],
+        "text": "share some latest news in the movies"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "technology",
+            "entity": "category"
+          }
+        ],
+        "text": "what is buzzing in the technology"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "business",
+            "entity": "category"
+          }
+        ],
+        "text": "what is new in the business"
+      },
+      {
+        "intent": "news",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "movies",
+            "entity": "category"
+          }
+        ],
+        "text": "movies"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "merci"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "bye",
+        "text": "until next time..."
+      },
+      {
+        "intent": "bye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "bye",
+        "text": "bye"
+      },
+      {
+        "intent": "bye",
+        "text": "buhbye"
+      },
+      {
+        "intent": "bye",
+        "text": "good bye"
+      },
+      {
+        "intent": "bye",
+        "text": "bbye"
+      },
+      {
+        "intent": "bye",
+        "text": "No, I'm good as of now. Bye."
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
