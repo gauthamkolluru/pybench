@@ -1,12 +1,14 @@
 {
   "config": "99914b932bd37a50b983c5e7c90ae93b",
-  "core-config": "95c1b632bd1c398582f24965d588acc2",
+  "core-config": "26918b0086f3efc663f0b6a926616c9f",
   "nlu-config": "b7d7e4d209b4a466873bc2625b1b884b",
-  "domain": [],
+  "domain": 1716776340701895525,
   "messages": [
     "fe3d1e22f02b8bef68d54c84cc092247"
   ],
-  "stories": [],
-  "trained_at": 1563873663.332872,
+  "stories": [
+    "79fb95c2847bda6966222c07977582df"
+  ],
+  "trained_at": 1563950204.1864648,
   "version": "1.1.4"
 }

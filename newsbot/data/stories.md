@@ -1,27 +1,27 @@
-## happy path
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
+## fallback
+- utter_default
 
-## sad path 1
+## greeting path 1
 * greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
+- utter_greet
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+## fine path 1
+* fine_normal
+- utter_help
 
-## say goodbye
-* goodbye
-  - utter_goodbye
+## fine path 2
+* fine_ask
+- utter_reply
+
+## news path
+* news
+- utter_ofc
+- action_get_news
+
+## thanks path 1
+* thanks
+- utter_anything_else
+
+## bye path 1
+* bye
+- utter_bye
