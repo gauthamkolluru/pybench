@@ -47,4 +47,4 @@ templates:
   utter_default:
     - text: I am not sure what you're aiming for
     - text: I am sorry but I am not able to get you.
-    - text: My appologies but I am not able to get you
+    - text: My apologies but I am not able to get you

@@ -22,6 +22,8 @@
 - I'm fine, thanks
 
 ## intent:news
+- share some latest news
+- news please
 - share some latest news in the [world](category)
 - share some latest news in the [sports](category)
 - whats latest in the [technology](category)

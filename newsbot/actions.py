@@ -36,14 +36,16 @@ class ActionGetNews(Action):
     
     def run(self, dispatcher, tracker, domain):
         category = tracker.get_slot('category')
-        print(category)
-        url = f'https://api.nytimes.com/svc/news/v3/content/all/{category}.json'
-        params = {'api-key': "YwFABCbVPDGGaM7aNgXuPdlPt2DuEK6I", 'limit': 5}
-        response = requests.get(url, params).text
-        json_data = json.loads(response)['results']
+        # print('Gautham')
+        url = f'https://cricapi.com/api/matchCalendar?apikey=MxmWhJiZP2cmZslWRP6qSsYTkwZ2'
+        # params = {'apikey': "MxmWhJiZP2cmZslWRP6qSsYTkwZ2"}
+        response = requests.get(url).text
+        print(response)
+        json_data = json.loads(response)['data']
         i = 0
-        for results in json_data:
-            i = i+1
-            message = str(i) + "." + results['abstract']
-            dispatcher.utter_message(message)
+        for data in json_data:
+            while i < 5:
+                message = str(i) + "." + data['name']+data['date']
+                dispatcher.utter_message(message)
+            i += 1
         return []
