@@ -13,3 +13,4 @@ sample1.*
 *.tar
 *.gz
 *.tar.gz
+__pycache__/*.*
