@@ -44,8 +44,10 @@ class ActionGetNews(Action):
         json_data = json.loads(response)['data']
         i = 0
         for data in json_data:
-            while i < 5:
+            if i != 5:
                 message = str(i) + "." + data['name']+data['date']
                 dispatcher.utter_message(message)
+            else:
+                break
             i += 1
         return []
