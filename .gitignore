@@ -10,3 +10,6 @@ sample1.*
 *.ppt
 *.pptx
 /botenv/*
+*.tar
+*.gz
+*.tar.gz
