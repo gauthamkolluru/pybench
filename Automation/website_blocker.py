@@ -6,10 +6,10 @@ hosts_path = '/etc/hosts'
 redirect = '127.0.0.1'
 
 block_site_list = [
-    'www.facebook.com', 'facebook.com', 'www.gmail.com', 'gmail.com', 'studio.youtube.com', 'https://www.youtube.com'
+    'www.facebook.com', 'facebook.com', 'www.gmail.com', 'gmail.com', 'studio.youtube.com', 'www.youtube.com'
 ]
 
-while dt.now().hour > 10 and dt.now().hour < 20:
+while 10 <= dt.now().hour <= 20:
     with open(hosts_path, 'r+') as file_ob:
         content = file_ob.read()
         for site in block_site_list:
