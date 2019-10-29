@@ -25,3 +25,7 @@
 ## say goodbye
 * goodbye
   - utter_goodbye
+
+## say sure
+* provide_all
+    - action_hello_world

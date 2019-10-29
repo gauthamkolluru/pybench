@@ -48,3 +48,32 @@
 - not very good
 - extremely sad
 - so sad
+
+## intent:provide_all
+- I want to order [large](size) pizza with [olives](topping)
+- I want to order [medium](size) pizza with [tomatoes](topping)
+- I want to order [small](size) [cheese burst](topping) pizza
+- I want [bada](size:large) pizza with [olives](topping)
+- I want [huge](size:large) pizza with [olives](topping)
+
+## synonym:large
+- bada
+- huge
+- lamba
+- big
+- humongous
+- majestic
+- vast
+
+## synonym:medium
+- average
+- normal
+
+## synonym:small
+- small
+- tiny
+- antlike
+- chota
+- itthusa
+- cheriya
+- sookshm
